@@ -15,25 +15,83 @@
 
     <!--This sectio will be UNIQUE for every page:-->
     <link rel="stylesheet" href="/css/index.css">
-    <title>E-Commerce Website</title>
+    <title>MasterChef</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/login.html">login</a></l
-                <li><a href="/signup.html">signup</a></l
-                <li><a href="/Checkout.html">Checkout</a></l
-            </ul>
+    <header id="header">
+        <div class="logo"> <img
+                src="https://png.pngtree.com/png-clipart/20220529/original/pngtree-crossed-kitchen-knives-on-white-background-png-image_7727494.png" alt="logo"
+                width="185">
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">MasterChef</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/signup.html">Signup</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Checkout.html">Checkout</a></li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
+    <main>
+        <div class="row">
+            <div class="col">
+                <h2 style="text-align: center;"><strong>A unique store that provides all the kitchen tools you need</strong>
+                </h2>
+                <img src="https://images.unsplash.com/photo-1556910602-38f53e68e15d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1625&q=80" alt="Kitchenlook">
+            </div>
+            <div class="col">
+                <img src="https://www.simplyfrugal.ca/wp-content/uploads/2015/02/jamie-oliver.jpg" alt="kitchen" width="800" height="800" class="center">
+            </div>
+        </div>
+    </main>
 
-    <main></main>
+    <footer>
+            <br>
+        <h1> About Us</h1>
+        <p>MasterChef is a renowned retail destination for kitchen enthusiasts and home cooks alike. This culinary
+            emporium offers a wide array of high-quality kitchen items and accessories, catering to the needs of
+            both
+            amateur and professional chefs. From essential tools to innovative gadgets, MasterChef is a one-stop
+            shop
+            for all your culinary needs. </p>
 
-    <footer></footer>
+        <p> At MasterChef, you'll find a meticulously curated selection of cookware, including pots, pans, and
+            bakeware
+            made from top-notch materials. Their extensive collection of knives and utensils ensures that you have
+            the
+            right tools for every task in the kitchen. For those seeking the perfect presentation, they offer
+            elegant
+            and functional tableware, from dinnerware to glassware. </p>
+    </footer>
+           
+            
+    <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+            <p class="mb-1">© 2005–2023 MasterChef</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .header {
+    background-color: azure;
+  }
+  .header img {
+    width: 250px;
+    height: 80px;
+    float: left; /* Assuming you want it to float to the left */
+  }
+  
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  

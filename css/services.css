@@ -1,0 +1,18 @@
+/* Default size (mobile) */
+.service {
+    border: 0.5rem solid black;
+}
+
+/* Tablet sizes and greater */
+@media screen and (min-width: 481px) {
+    .service {
+        border: 1rem solid black;
+    }
+}
+
+/* Laptop sizes and greater */
+@media screen and (min-width: 769px) {
+    .service {
+        border: 1.5rem solid black;
+    }
+}

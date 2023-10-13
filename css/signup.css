@@ -1,0 +1,9 @@
+.div {
+    border: 5px solid;
+    margin: 5px;
+  }
+  
+  .logo {
+    width: 185px; /* You need to specify the unit, such as 'px', for the width property. */
+  }
+  
